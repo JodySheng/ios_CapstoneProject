@@ -7,102 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5C430132AFA079D002BEF89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C430122AFA079D002BEF89 /* AppDelegate.swift */; };
-		F5C430152AFA079D002BEF89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C430142AFA079D002BEF89 /* SceneDelegate.swift */; };
-		F5C430172AFA079D002BEF89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C430162AFA079D002BEF89 /* ViewController.swift */; };
-		F5C4301A2AFA079D002BEF89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C430182AFA079D002BEF89 /* Main.storyboard */; };
-		F5C4301C2AFA079E002BEF89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C4301B2AFA079E002BEF89 /* Assets.xcassets */; };
-		F5C4301F2AFA079E002BEF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C4301D2AFA079E002BEF89 /* LaunchScreen.storyboard */; };
+		ED83EE9A29B05FCE007A4FC9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83EE9929B05FCE007A4FC9 /* Book.swift */; };
+		ED83EE9D29B06A4C007A4FC9 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = ED83EE9C29B06A4C007A4FC9 /* Nuke */; };
+		ED88ABF229AD9858008A6FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88ABF129AD9858008A6FF6 /* AppDelegate.swift */; };
+		ED88ABF429AD9858008A6FF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88ABF329AD9858008A6FF6 /* SceneDelegate.swift */; };
+		ED88ABF629AD9858008A6FF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88ABF529AD9858008A6FF6 /* ViewController.swift */; };
+		ED88ABF929AD9858008A6FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED88ABF729AD9858008A6FF6 /* Main.storyboard */; };
+		ED88ABFB29AD9859008A6FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED88ABFA29AD9859008A6FF6 /* Assets.xcassets */; };
+		ED88ABFE29AD9859008A6FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED88ABFC29AD9859008A6FF6 /* LaunchScreen.storyboard */; };
+		F55CFE362B02C3EC006C9F34 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CFE352B02C3EC006C9F34 /* BookCell.swift */; };
+		F55CFE382B02E48B006C9F34 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CFE372B02E48B006C9F34 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5C4300F2AFA079D002BEF89 /* MyBookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5C430122AFA079D002BEF89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5C430142AFA079D002BEF89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5C430162AFA079D002BEF89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5C430192AFA079D002BEF89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F5C4301B2AFA079E002BEF89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F5C4301E2AFA079E002BEF89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F5C430202AFA079E002BEF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED83EE9929B05FCE007A4FC9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		ED88ABEE29AD9858008A6FF6 /* MyBookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED88ABF129AD9858008A6FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED88ABF329AD9858008A6FF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED88ABF529AD9858008A6FF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED88ABF829AD9858008A6FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED88ABFA29AD9859008A6FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED88ABFD29AD9859008A6FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED88ABFF29AD9859008A6FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55CFE352B02C3EC006C9F34 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		F55CFE372B02E48B006C9F34 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F5C4300C2AFA079D002BEF89 /* Frameworks */ = {
+		ED88ABEB29AD9858008A6FF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED83EE9D29B06A4C007A4FC9 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F5C430062AFA079D002BEF89 = {
+		ED88ABE529AD9858008A6FF6 = {
 			isa = PBXGroup;
 			children = (
-				F5C430112AFA079D002BEF89 /* MyBookShelf */,
-				F5C430102AFA079D002BEF89 /* Products */,
+				ED88ABF029AD9858008A6FF6 /* ios101-lab5-flix1 */,
+				ED88ABEF29AD9858008A6FF6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F5C430102AFA079D002BEF89 /* Products */ = {
+		ED88ABEF29AD9858008A6FF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5C4300F2AFA079D002BEF89 /* MyBookShelf.app */,
+				ED88ABEE29AD9858008A6FF6 /* MyBookShelf.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5C430112AFA079D002BEF89 /* MyBookShelf */ = {
+		ED88ABF029AD9858008A6FF6 /* ios101-lab5-flix1 */ = {
 			isa = PBXGroup;
 			children = (
-				F5C430122AFA079D002BEF89 /* AppDelegate.swift */,
-				F5C430142AFA079D002BEF89 /* SceneDelegate.swift */,
-				F5C430162AFA079D002BEF89 /* ViewController.swift */,
-				F5C430182AFA079D002BEF89 /* Main.storyboard */,
-				F5C4301B2AFA079E002BEF89 /* Assets.xcassets */,
-				F5C4301D2AFA079E002BEF89 /* LaunchScreen.storyboard */,
-				F5C430202AFA079E002BEF89 /* Info.plist */,
+				F55CFE372B02E48B006C9F34 /* DetailViewController.swift */,
+				ED88ABF129AD9858008A6FF6 /* AppDelegate.swift */,
+				ED88ABF329AD9858008A6FF6 /* SceneDelegate.swift */,
+				ED88ABF529AD9858008A6FF6 /* ViewController.swift */,
+				F55CFE352B02C3EC006C9F34 /* BookCell.swift */,
+				ED83EE9929B05FCE007A4FC9 /* Book.swift */,
+				ED88ABF729AD9858008A6FF6 /* Main.storyboard */,
+				ED88ABFA29AD9859008A6FF6 /* Assets.xcassets */,
+				ED88ABFC29AD9859008A6FF6 /* LaunchScreen.storyboard */,
+				ED88ABFF29AD9859008A6FF6 /* Info.plist */,
 			);
-			path = MyBookShelf;
+			path = "ios101-lab5-flix1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5C4300E2AFA079D002BEF89 /* MyBookShelf */ = {
+		ED88ABED29AD9858008A6FF6 /* MyBookShelf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5C430232AFA079E002BEF89 /* Build configuration list for PBXNativeTarget "MyBookShelf" */;
+			buildConfigurationList = ED88AC0229AD9859008A6FF6 /* Build configuration list for PBXNativeTarget "MyBookShelf" */;
 			buildPhases = (
-				F5C4300B2AFA079D002BEF89 /* Sources */,
-				F5C4300C2AFA079D002BEF89 /* Frameworks */,
-				F5C4300D2AFA079D002BEF89 /* Resources */,
+				ED88ABEA29AD9858008A6FF6 /* Sources */,
+				ED88ABEB29AD9858008A6FF6 /* Frameworks */,
+				ED88ABEC29AD9858008A6FF6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyBookShelf;
-			productName = MyBookShelf;
-			productReference = F5C4300F2AFA079D002BEF89 /* MyBookShelf.app */;
+			packageProductDependencies = (
+				ED83EE9C29B06A4C007A4FC9 /* Nuke */,
+			);
+			productName = "ios101-lab5-flix1";
+			productReference = ED88ABEE29AD9858008A6FF6 /* MyBookShelf.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F5C430072AFA079D002BEF89 /* Project object */ = {
+		ED88ABE629AD9858008A6FF6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					F5C4300E2AFA079D002BEF89 = {
-						CreatedOnToolsVersion = 14.3.1;
+					ED88ABED29AD9858008A6FF6 = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = F5C4300A2AFA079D002BEF89 /* Build configuration list for PBXProject "MyBookShelf" */;
+			buildConfigurationList = ED88ABE929AD9858008A6FF6 /* Build configuration list for PBXProject "MyBookShelf" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +124,61 @@
 				en,
 				Base,
 			);
-			mainGroup = F5C430062AFA079D002BEF89;
-			productRefGroup = F5C430102AFA079D002BEF89 /* Products */;
+			mainGroup = ED88ABE529AD9858008A6FF6;
+			packageReferences = (
+				ED83EE9B29B06A4C007A4FC9 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			productRefGroup = ED88ABEF29AD9858008A6FF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5C4300E2AFA079D002BEF89 /* MyBookShelf */,
+				ED88ABED29AD9858008A6FF6 /* MyBookShelf */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F5C4300D2AFA079D002BEF89 /* Resources */ = {
+		ED88ABEC29AD9858008A6FF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C4301F2AFA079E002BEF89 /* LaunchScreen.storyboard in Resources */,
-				F5C4301C2AFA079E002BEF89 /* Assets.xcassets in Resources */,
-				F5C4301A2AFA079D002BEF89 /* Main.storyboard in Resources */,
+				ED88ABFE29AD9859008A6FF6 /* LaunchScreen.storyboard in Resources */,
+				ED88ABFB29AD9859008A6FF6 /* Assets.xcassets in Resources */,
+				ED88ABF929AD9858008A6FF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F5C4300B2AFA079D002BEF89 /* Sources */ = {
+		ED88ABEA29AD9858008A6FF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C430172AFA079D002BEF89 /* ViewController.swift in Sources */,
-				F5C430132AFA079D002BEF89 /* AppDelegate.swift in Sources */,
-				F5C430152AFA079D002BEF89 /* SceneDelegate.swift in Sources */,
+				ED88ABF629AD9858008A6FF6 /* ViewController.swift in Sources */,
+				ED88ABF229AD9858008A6FF6 /* AppDelegate.swift in Sources */,
+				ED83EE9A29B05FCE007A4FC9 /* Book.swift in Sources */,
+				F55CFE382B02E48B006C9F34 /* DetailViewController.swift in Sources */,
+				ED88ABF429AD9858008A6FF6 /* SceneDelegate.swift in Sources */,
+				F55CFE362B02C3EC006C9F34 /* BookCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F5C430182AFA079D002BEF89 /* Main.storyboard */ = {
+		ED88ABF729AD9858008A6FF6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F5C430192AFA079D002BEF89 /* Base */,
+				ED88ABF829AD9858008A6FF6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F5C4301D2AFA079E002BEF89 /* LaunchScreen.storyboard */ = {
+		ED88ABFC29AD9859008A6FF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F5C4301E2AFA079E002BEF89 /* Base */,
+				ED88ABFD29AD9859008A6FF6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +186,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F5C430212AFA079E002BEF89 /* Debug */ = {
+		ED88AC0029AD9859008A6FF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		F5C430222AFA079E002BEF89 /* Release */ = {
+		ED88AC0129AD9859008A6FF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,16 +300,15 @@
 			};
 			name = Release;
 		};
-		F5C430242AFA079E002BEF89 /* Debug */ = {
+		ED88AC0329AD9859008A6FF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8KBDHQWZSM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyBookShelf/Info.plist;
+				INFOPLIST_FILE = "ios101-lab5-flix1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FS.MyBookShelf;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.ios101-lab5-flix1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,16 +327,15 @@
 			};
 			name = Debug;
 		};
-		F5C430252AFA079E002BEF89 /* Release */ = {
+		ED88AC0429AD9859008A6FF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8KBDHQWZSM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyBookShelf/Info.plist;
+				INFOPLIST_FILE = "ios101-lab5-flix1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FS.MyBookShelf;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.ios101-lab5-flix1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,25 +357,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5C4300A2AFA079D002BEF89 /* Build configuration list for PBXProject "MyBookShelf" */ = {
+		ED88ABE929AD9858008A6FF6 /* Build configuration list for PBXProject "MyBookShelf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5C430212AFA079E002BEF89 /* Debug */,
-				F5C430222AFA079E002BEF89 /* Release */,
+				ED88AC0029AD9859008A6FF6 /* Debug */,
+				ED88AC0129AD9859008A6FF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5C430232AFA079E002BEF89 /* Build configuration list for PBXNativeTarget "MyBookShelf" */ = {
+		ED88AC0229AD9859008A6FF6 /* Build configuration list for PBXNativeTarget "MyBookShelf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5C430242AFA079E002BEF89 /* Debug */,
-				F5C430252AFA079E002BEF89 /* Release */,
+				ED88AC0329AD9859008A6FF6 /* Debug */,
+				ED88AC0429AD9859008A6FF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED83EE9B29B06A4C007A4FC9 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED83EE9C29B06A4C007A4FC9 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED83EE9B29B06A4C007A4FC9 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = F5C430072AFA079D002BEF89 /* Project object */;
+	rootObject = ED88ABE629AD9858008A6FF6 /* Project object */;
 }

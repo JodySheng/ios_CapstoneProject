@@ -1,8 +1,6 @@
 //
 //  AppDelegate.swift
-//  MyBookShelf
-//
-//  Created by Saintlonglive on 11/6/23.
+//  ios101-lab5-flix1
 //
 
 import UIKit

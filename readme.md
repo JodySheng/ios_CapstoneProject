@@ -29,7 +29,7 @@ It's an mobile app help you find, favorite books you like in a certain subject. 
 
 **Required Must-have Stories**
 
-* Users can pick a subject and get a list of books from that subject
+* Users can get a list of books from the “child” subject
 * Users can click on a book and see the book's details
 * Users can favorite a book
 * Users can view their favorite book on thier bookshelf
@@ -43,15 +43,11 @@ It's an mobile app help you find, favorite books you like in a certain subject. 
 
 ### 2. Screen Archetypes
 
-Search screen
-* Users can see all the subject that can click
-* Users can click one subject and see a list of books from that subject
-
 Books screen
 * Users can see a list of books from a subject
 * Users can click a book and see that book's detail
 
-Book screen
+Book Detail screen
 * Users can see that book's detail
 * Users can favorite a book
 
@@ -62,13 +58,12 @@ Favorites screen
 
 **Tab Navigation** (Tab to Screen)
 
-* Subjects
+* Books
 * Favorites
 
 **Flow Navigation** (Screen to Screen)
 
-- Subjects screen
-=> Books screen
+- Books screen
 => Book screen
 
 - Favorites screen
@@ -96,7 +91,20 @@ Favorites screen
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
+## Build Progress
 ### week 8
-<img src="https://i.imgur.com/y5cfor9.png" width=600>
+decide to do which app, and use what api.
+
+### week 9
+[x]Fetch an array of data objects from an API
+[x]Display a list of objects in a table view
+[x]Load and display remote images given a URL
+[x]Handle table view cell selection
+[x]Implement push navigation
+[x]Pass data to another view controller when navigating to it
+
+https://imgur.com/3ie0z6F.gif
+
+
 
 
