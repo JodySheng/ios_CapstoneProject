@@ -96,18 +96,18 @@ Favorites screen
 decide to do which app, and use what api.
 
 ### week 9
-[x]Fetch an array of data objects from an API
-[x]Display a list of objects in a table view
-[x]Load and display remote images given a URL
-[x]Handle table view cell selection
-[x]Implement push navigation
-[x]Pass data to another view controller when navigating to it
+- [x]Fetch an array of data objects from an API
+- [x]Display a list of objects in a table view
+- [x]Load and display remote images given a URL
+- [x]Handle table view cell selection
+- [x]Implement push navigation
+- [x]Pass data to another view controller when navigating to it
 
 https://imgur.com/3ie0z6F.gif
 
 ### week 10
-[x]Users can toggle a "Favorite" button in the movie detail screen to save/delete a movie from their collection of favorite movies.
-[x]Users can view a scrolling list of their favorite movies on a "Favorites" tab.
+- [x]Users can toggle a "Favorite" button in the movie detail screen to save/delete a movie from their collection of favorite movies.
+- [x]Users can view a scrolling list of their favorite movies on a "Favorites" tab.
 
 https://imgur.com/65aDz6I.gif
 
