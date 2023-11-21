@@ -17,6 +17,7 @@
 		ED88ABFE29AD9859008A6FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED88ABFC29AD9859008A6FF6 /* LaunchScreen.storyboard */; };
 		F55CFE362B02C3EC006C9F34 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CFE352B02C3EC006C9F34 /* BookCell.swift */; };
 		F55CFE382B02E48B006C9F34 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CFE372B02E48B006C9F34 /* DetailViewController.swift */; };
+		F5B51B0B2B0AF41700ADF77B /* FavoritesViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B51B0A2B0AF41700ADF77B /* FavoritesViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		ED88ABFF29AD9859008A6FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F55CFE352B02C3EC006C9F34 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		F55CFE372B02E48B006C9F34 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		F5B51B0A2B0AF41700ADF77B /* FavoritesViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				F55CFE352B02C3EC006C9F34 /* BookCell.swift */,
 				ED83EE9929B05FCE007A4FC9 /* Book.swift */,
 				ED88ABF729AD9858008A6FF6 /* Main.storyboard */,
+				F5B51B0A2B0AF41700ADF77B /* FavoritesViewViewController.swift */,
 				ED88ABFA29AD9859008A6FF6 /* Assets.xcassets */,
 				ED88ABFC29AD9859008A6FF6 /* LaunchScreen.storyboard */,
 				ED88ABFF29AD9859008A6FF6 /* Info.plist */,
@@ -158,6 +161,7 @@
 				ED88ABF629AD9858008A6FF6 /* ViewController.swift in Sources */,
 				ED88ABF229AD9858008A6FF6 /* AppDelegate.swift in Sources */,
 				ED83EE9A29B05FCE007A4FC9 /* Book.swift in Sources */,
+				F5B51B0B2B0AF41700ADF77B /* FavoritesViewViewController.swift in Sources */,
 				F55CFE382B02E48B006C9F34 /* DetailViewController.swift in Sources */,
 				ED88ABF429AD9858008A6FF6 /* SceneDelegate.swift in Sources */,
 				F55CFE362B02C3EC006C9F34 /* BookCell.swift in Sources */,

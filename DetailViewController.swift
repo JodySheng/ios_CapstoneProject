@@ -7,12 +7,28 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var authorLabel: UILabel!
     @IBOutlet weak var isbnLabel: UILabel!
     @IBOutlet weak var yearLabel: UILabel!
+    @IBOutlet weak var favoriteLabel: UIButton!
+    
+    @IBAction func didTapFavoriteButton(_ sender: UIButton) {
+        sender.isSelected = !sender.isSelected
+        
+        if sender.isSelected {
+            // 1.
+            book.addToFavorites()
+        } else {
+            // 2.
+            book.removeFromFavorites()
+        }
+
+    }
     
     var book: Book!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.largeTitleDisplayMode = .never
+        favoriteLabel.layer.cornerRadius = favoriteLabel.frame.width / 2
+
 
         if let unwrappedBook = book {
             print("unwrappedBook", unwrappedBook)
@@ -50,6 +66,16 @@ class DetailViewController: UIViewController {
             }
         } else {
             print("Error: 'book' is nil")
+        }
+        
+        let favorites = Book.getBooks(forKey: Book.favoritesKey)
+        // 2.
+        if favorites.contains(book) {
+            // 3.
+            favoriteLabel.isSelected = true
+        } else {
+            // 4.
+            favoriteLabel.isSelected = false
         }
     }
 }
