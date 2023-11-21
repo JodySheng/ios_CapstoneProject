@@ -109,6 +109,8 @@ https://imgur.com/3ie0z6F.gif
 [x]Users can toggle a "Favorite" button in the movie detail screen to save/delete a movie from their collection of favorite movies.
 [x]Users can view a scrolling list of their favorite movies on a "Favorites" tab.
 
+https://imgur.com/65aDz6I.gif
+
 
 
 
