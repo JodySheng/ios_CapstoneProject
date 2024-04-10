@@ -44,7 +44,7 @@ By clicking on books you can browse through a list of some books, click on one o
 ### 2. Screen Archetypes
 
 Books screen
-* Users can see a list of books from a subject
+* Users can see a list of books
 * Users can click a book and see that book's detail
 
 Book Detail screen
