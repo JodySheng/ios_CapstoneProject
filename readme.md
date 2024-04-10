@@ -70,7 +70,6 @@ Favorites screen
 => Book screen
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
 <img src="https://i.imgur.com/JMhKL9I.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
@@ -103,7 +102,10 @@ decide to do which app, and use what api.
 - [x]Implement push navigation
 - [x]Pass data to another view controller when navigating to it
 
-https://imgur.com/3ie0z6F.gif
+<img src="https://imgur.com/3ie0z6F.gif" width=600>
+
+
+
 
 ### week 10
 - [x]Users can toggle a "Favorite" button in the movie detail screen to save/delete a movie from their collection of favorite movies.
