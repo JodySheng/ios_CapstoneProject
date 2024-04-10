@@ -13,7 +13,7 @@
 
 ### Description
 
-It's an mobile app help you find, favorite books you like in a certain subject. You can read a book's information like it's title, description, author, it's cover and so on.
+By clicking on books you can browse through a list of some books, click on one of them to see its specific information, and favorite or unfavorite it. You can also find your favorite book by directly clicking on the favorite list.
 
 ### App Evaluation
 
@@ -29,10 +29,10 @@ It's an mobile app help you find, favorite books you like in a certain subject. 
 
 **Required Must-have Stories**
 
-* Users can get a list of books from the “child” subject
+* Users can get a list of books 
 * Users can click on a book and see the book's details
 * Users can favorite a book
-* Users can view their favorite book on thier bookshelf
+* Users can view their favorite book on their bookshelf
 
 **Optional Nice-to-have Stories**
 
